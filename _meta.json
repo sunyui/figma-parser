@@ -1,0 +1,13 @@
+{
+  "name": "fig-parser",
+  "description": "Parse local Figma .fig binary files offline and export assets via Figma REST API. Extracts design data, node trees, images, typography, gradients, effects, and icon metadata. Includes integrated icon SVG export combining offline parsing with API export.",
+  "version": "2.0.0",
+  "author": "suny",
+  "tags": ["figma", "design", "parsing", "offline", "export", "svg", "icons"],
+  "requires": {
+    "node": true,
+    "python": true,
+    "npm_packages": ["kiwi-schema", "pako", "fzstd"],
+    "pip_packages": ["requests"]
+  }
+}

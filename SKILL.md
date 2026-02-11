@@ -1,7 +1,11 @@
-# figma-parser
-Parse local Figma .fig binary files offline and export assets via Figma REST API. Extracts design data, node trees, images, typography, gradients, effects, and icon metadata. Includes integrated icon SVG export combining offline parsing with API export. Generate structured design specification documents for frontend development.
+---
+name: fig-parser
+description: Parse local Figma .fig binary files offline and extract complete design specifications. Extracts node tree, layout data, images, text styles, gradients, effects, and icon metadata. Optionally integrates with Figma REST API for SVG icon export when credentials are available.
+---
 
+# Figma .fig File Parser
 
+Parse local `.fig` binary files **without** a Figma account or API access. Extract complete design data including layout, typography, colors, images, icons, gradients, effects, and auto-layout properties. Generate structured design specification documents for frontend development.
 
 ## Core Capabilities
 
